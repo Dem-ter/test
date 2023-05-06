@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="https://ie.wampi.ru/2023/03/22/apple-touch-icon.png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <title>Выручайка</title>
+    <link rel="stylesheet" href = "style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="script.js" defer></script>
+</head>
+<body>
+<div id="title" class="row lesson-titles">
+    <h1 class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">Выручайка</h1>
+</div>
+
+<input type="button" id="reloadButton" value="Обновить">
+<input type="button" id="checkButton" value="Проверить">
+
+
+<div class="row">
+    <div id="column-left" class="col-xs-6 col-sm-5 col-md-4 col-lg-3 column-left" style="width: 50rem;">
+
+    </div>
+    <div id="column-right" class="col-xs-6 col-xs-push-6 col-sm-5 col-sm-push-7 col-md-4 col-md-push-8 col-lg-3 col-lg-push-9 column-right">
+    </div>
+
+</div>
+
+<div class="slidecontainer">
+<input type="range" min="2" max="7" value="4" class="slider" id="myRange">
+<p>Количество: <span id="demo"></span></p>
+</div>
+
+<canvas id="canvas" width="320" height="160">
+</canvas>
+</body>
+</html>

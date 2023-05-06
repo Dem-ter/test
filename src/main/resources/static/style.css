@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+}
+#title {
+    background-color: transparent;
+    position: relative;
+}
+
+html {
+overflow: hidden;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color:rgb(250, 250, 210);
+}
+h1 {
+    font-family: "fantasy", Impact;
+    font-size: 50px;
+    color: black;
+    position:center;
+}
+.lesson-titles .arabic-letter {
+    color: #D31145;
+    font-size: 2px;
+    line-height: 2px;
+}
+p#attempts {
+    font-size: 20px;
+    font-weight: 700;
+    color: gray;
+}
+
+#column-left {
+    position: absolute;
+    z-index: 999;
+}
+#column-right {
+    position: absolute;
+    z-index: 999;
+}
+.btn {
+  word-wrap: break-word;
+  white-space: normal;
+}
+.button-column {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px 0;
+}
+#reloadButton {
+  top: 10px;
+  right: 1%;
+  position: absolute;
+}
+#checkButton {
+  top: 10px;
+  left: 1%;
+  position: absolute;
+}
+input[type="button"] {
+    color: white;
+    background: rgb(51,122,183);
+    border-radius: 30px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.slidecontainer {
+    position:absolute;
+    width: 25%;
+    top:40px;
+    left:13%;
+}
+
+.slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 15px;
+    border-radius: 5px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+.slider:hover {
+    opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: blue;
+    cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #4CAF50;
+    cursor: pointer;
+}
